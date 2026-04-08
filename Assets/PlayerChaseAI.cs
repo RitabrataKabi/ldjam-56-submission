@@ -22,10 +22,8 @@ public class PlayerChaseAI : MonoBehaviour
 
     IEnumerator ChasePlayer() {
 
-        while(true)
-        {
-            agent.SetDestination(target.position);
-        yield return null;}
+        agent.SetDestination(target.position);
+        yield return null;
     }
 
     public void StopChase()

@@ -9,7 +9,7 @@ public class Marbles : MonoBehaviour
 
     void Start()
     {
-        NotificationManager.Instance.AddListener(this, "Marbles");
+        NotificationManager.Instance.AddListener(this, "Marble");
         rb = GetComponent<Rigidbody>();
         rb.mass = 100f;
     }
